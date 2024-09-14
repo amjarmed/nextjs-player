@@ -1,18 +1,18 @@
-import Aside from './components/Aside';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Main from './components/Main';
+
+import Counter from './components/Counter';
+import Navigation from './components/Navigation';
 
  
  function Home() {
-  const hideAside= true;
   return (
 
-    <div className="text-center grid gird-cols-12">
-     <Header text={'navigation '}   textsub='something new'/>
-     <Main/>
-     {hideAside && <Aside/>}
-     <Footer/>
+    <div className={"text-center grid gird-cols-12  text-neutral-900 txt-lg"} >
+  <Navigation/>
+
+  <div className='p-3 my-5 border'>
+      <Counter/>
+
+  </div>
     </div>
   );
 }
