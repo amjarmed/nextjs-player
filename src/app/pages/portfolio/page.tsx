@@ -1,10 +1,11 @@
 
- function About() {
+ function Portfolio() {
   return (
-    <div className="text-center text-neutral-900 bg-gray-300 p-5 text-4xl font-extrabold">
-        <h1>About pages</h1>
+      <div className=" p-5 ">
+        <h1>Portfolio pages</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, recusandae excepturi cumque quasi mollitia, officiis tenetur, officia quaerat totam unde enim voluptate ipsam! Quisquam ea amet atque sunt libero facere?</p>
     </div>
   );
 }
  
-export default About
+export default Portfolio

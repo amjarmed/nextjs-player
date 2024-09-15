@@ -1,15 +1,13 @@
 
 import Counter from './components/Counter';
-import Navigation from './components/Navigation';
 
  
  function Home() {
   return (
 
-    <div className={"text-center grid gird-cols-12  text-neutral-900 txt-lg"} >
-  <Navigation/>
+    <div className={"text-center grid gird-cols-12  "} >
 
-  <div className='p-3 my-5 border'>
+  <div className='p-3 my-5    mt-5'>
       <Counter/>
 
   </div>

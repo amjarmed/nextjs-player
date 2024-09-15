@@ -29,7 +29,8 @@ const calculateIncome=()=>{
 
    }
   return (
-    <div className="text-center text-neutral-900 bg-slate-50 p-5 h-screen flex flex-col justify-center bg-gradient-to-r from-blue-500/50  to-green-500/50  ">
+  <>
+    <div className="text-center text-neutral-900 bg-slate-50 p-5  flex flex-col justify-center ">
         <h1 className='text-4xl font-extrabold my-5 text-blue-100 font-serif'>Contact Us </h1>
         <form className='w-1/2 mx-auto border border-blue-300 shadow-md rounded bg-neutral-300 text-start flex flex-col justify-center items-stretch p-2 font-serif font-semibold bg-opacity-70'>
            <label htmlFor="name" className='p-1 mb-1'>Full name</label>
@@ -42,8 +43,10 @@ const calculateIncome=()=>{
         </form>
 
         <p className='p-1 my-2 w-1/2 mx-auto rounded  text-start text-neutral-500'>final message: {name} - {income}</p>
+        <div></div>
     </div>
+  </>
   );
 }
  
-export default Contact
+export default Contact;

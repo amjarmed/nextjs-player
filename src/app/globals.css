@@ -25,3 +25,32 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  h4 {
+    @apply text-xl;
+  }
+  h5 {
+    @apply text-lg;
+  }
+  h6 {
+    @apply text-sm;
+  }
+}
+
+@layer base {
+  p {
+    @apply p-2;
+    @apply mb-2;
+    @apply text-neutral-500;
+  }
+}
