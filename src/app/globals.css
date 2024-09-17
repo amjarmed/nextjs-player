@@ -46,11 +46,3 @@ body {
     @apply text-sm;
   }
 }
-
-@layer base {
-  p {
-    @apply p-2;
-    @apply mb-2;
-    @apply text-neutral-500;
-  }
-}
